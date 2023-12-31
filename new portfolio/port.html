@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>personel portfolio</title>
+    <link href="port.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello,It's Me</h3>
+        <h1>Ribka Wondu</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p>
+          Welcome to my corner of the web! I'm Ribka, a creative and
+          detail-oriented frontend developer with a passion for building
+          engaging and user-friendly websites.
+        </p>
+        <div class="social-media">
+          <a href="https://www.instagram.com/ribka_wo?igsh=MW9nbXJrZXg1eDcxbw=="
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ribka-wondu-203bb1248/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://t.me/rivkah22"><i class="bx bxl-telegram"></i></a>
+          <a href="#"><i class="bx bxl-discord"></i></a>
+        </div>
+        <a href="cv.pdf" download class="btn">Download CV</a>
+        <!-- <iframe id="myPDF" src="cv.pdf" frameborder="0"></iframe> -->
+      </div>
+      <div class="home-img">
+        <img src="imgHOME.png" alt="home image" />
+      </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="imgHOME.png" alt="about img" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <!-- <div class="read-more-container">
+          <div class="container"> -->
+            <p>
+              Hey there! I'm Ribka, a software enginnering student at Jimma
+              University and a passionate frontend developer.With a creative
+              mindset and a love for coding, I enjoy transforming ideas into
+              visually appealing and interactive web experiences.
+              <span class="read-more-text">
+                My journey into the world of web development began with a
+                curiosity about how things work on the internet. Over the years,
+                I've honed my skills in HTML, CSS, and JavaScript, and I'm
+                constantly exploring new technologies to stay at the forefront,
+                like React.js,in the ever-evolving web industry.
+              </span>
+            </p>
+            <!-- <span class="read-more-btn">Read More...</span> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="PROJ1.jpg" alt="potfolio1" />
+          <div class="portfolio-layer">
+            <h4>Youtube Landing Page</h4>
+            <p>It's Youtube landing page</p>
+
+            <a href="https://github.com/REBECCA-WONDU/YouTube-Landing-Page"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="PROJ2.jpg" alt="potfolio1" />
+          <div class="portfolio-layer">
+            <h4>Tribute Page</h4>
+            <p>It's a tribute page for Maitre Loret Afewerk Tekele</p>
+
+            <a
+              href="https://github.com/REBECCA-WONDU/Tribute-page/tree/main/tribute%20page"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="PROJ3.jpg" alt="potfolio1" />
+          <div class="portfolio-layer">
+            <h4>Facebook Landing Page</h4>
+            <p>It's Facebook landing page</p>
+
+            <a href="https://github.com/REBECCA-WONDU/Facebook-landing-page"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
